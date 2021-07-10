@@ -342,6 +342,7 @@ a {
   }
   .homepage-body .card-content {
     flex-basis: 100%;
+    text-align: center;
   }
   .homepage-body .graphic-card .graphic-body {
     flex-basis: 100%;
