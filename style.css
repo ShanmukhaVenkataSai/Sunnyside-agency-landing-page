@@ -261,6 +261,7 @@ a {
   margin: 3em auto;
 }
 .homepage-footer .footer-body .more-options ul {
+  padding: 0;
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -275,6 +276,7 @@ a {
   padding: 0 0 4em 0;
 }
 .homepage-footer .footer-body .social-media ul {
+  padding: 0;
   display: flex;
   list-style: none;
   justify-content: space-around;

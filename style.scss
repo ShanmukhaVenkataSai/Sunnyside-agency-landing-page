@@ -298,6 +298,7 @@ a {
             width: min(500px,80%);
             margin: 3em auto;
             ul{
+                padding: 0;
                 display: flex;
                 list-style: none;
                 justify-content: space-around;
@@ -312,6 +313,7 @@ a {
             margin: 0 auto;
             padding: 0 0 4em 0;
             ul{
+                padding: 0;
                 display: flex;
                 list-style: none;
                 justify-content: space-around;
