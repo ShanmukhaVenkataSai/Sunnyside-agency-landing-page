@@ -1,0 +1,357 @@
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.container-fluid {
+  width: 98%;
+  margin: 0 auto;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+.homepage-header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("./assets/images/desktop/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.homepage-header .navigation-bar {
+  width: 95%;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homepage-header .navigation-bar .left-content {
+  text-align: left;
+}
+.homepage-header .navigation-bar .left-content ul {
+  padding: 0;
+  list-style: none;
+}
+.homepage-header .navigation-bar .left-content ul li a {
+  color: white;
+  text-decoration: none;
+}
+.homepage-header .navigation-bar .right-content {
+  width: 70%;
+  text-align: right;
+}
+.homepage-header .navigation-bar .right-content ul {
+  padding: 0;
+  list-style: none;
+}
+.homepage-header .navigation-bar .right-content ul li {
+  font-size: clamp(1.4rem,1.2vw,2vw);
+  margin: 0 1em;
+  display: inline-block;
+}
+.homepage-header .navigation-bar .right-content ul li a {
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.homepage-header .navigation-bar .right-content .page-active {
+  font-family: Fraunces;
+}
+.homepage-header .navigation-bar .right-content .page-active a {
+  color: #5a636c;
+  background-color: white;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+}
+.homepage-header .navigation-bar .nav-bar {
+  color: white;
+  display: none;
+}
+.homepage-header .header-title {
+  font-family: Fraunces;
+  font-size: clamp(3rem,3vw,3vw);
+  margin: 3em 0;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.5rem;
+}
+.homepage-header .arrow-down {
+  text-align: center;
+  padding: 0 0 16em 0;
+}
+
+.homepage-body {
+  margin: 0;
+  padding: 0;
+}
+.homepage-body .body-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.homepage-body .row-reverse {
+  flex-direction: row-reverse;
+}
+.homepage-body .card-image {
+  flex-basis: 50%;
+  line-height: 0;
+}
+.homepage-body .card-image img {
+  width: 100%;
+  height: 100%;
+}
+.homepage-body .mobile-margin {
+  margin: 0;
+}
+.homepage-body .card-content {
+  flex-basis: 50%;
+}
+.homepage-body .card-content .content {
+  width: 80%;
+  margin: 0 auto;
+}
+.homepage-body .card-header {
+  font-size: clamp(2.6rem,3vw,10vw);
+  font-family: Fraunces;
+}
+.homepage-body .card-body {
+  font-size: clamp(1.4rem,1.5vw,5vw);
+  color: #5a636c;
+  margin: 1em 0 0 0;
+}
+.homepage-body .card-footer {
+  margin-top: 1.3em;
+  font-family: Barlow;
+  font-size: clamp(1.6rem,1vw,5vw);
+}
+.homepage-body .card-footer a {
+  color: #19536b;
+  text-decoration: none;
+  position: relative;
+}
+.homepage-body .card-footer a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 15px;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+}
+.homepage-body .card-footer .yellow::after {
+  background-color: #fad400;
+}
+.homepage-body .card-footer .soft-red::after {
+  background-color: #fe7867;
+}
+.homepage-body .content-bottom {
+  text-align: center;
+  padding: 0 2em;
+  position: absolute;
+  top: 55%;
+}
+.homepage-body .graphic-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.homepage-body .graphic-card .graphic-body {
+  flex-basis: 50%;
+  position: relative;
+}
+
+.homepage-about {
+  margin: 0;
+  padding: 0;
+}
+.homepage-about .about-title {
+  margin: 6em 0 3em;
+  text-align: center;
+  font-family: Fraunces;
+  letter-spacing: 0.25em;
+  color: #5a636c;
+}
+.homepage-about .client-review {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 85%;
+}
+.homepage-about .card {
+  text-align: center;
+  padding: 1.5em;
+}
+.homepage-about .card .image {
+  width: 25%;
+  margin: 0 auto;
+}
+.homepage-about .card .image img {
+  width: 100%;
+  border-radius: 50px;
+}
+.homepage-about .card .description {
+  font-size: clamp(1.4rem,1.2vw,5vw);
+  color: #5a636c;
+  margin: 3em 0 0 0;
+}
+.homepage-about .card .details {
+  margin: 3em 0 0 0;
+}
+.homepage-about .card .details .name {
+  font-family: Fraunces;
+  font-size: clamp(1.6rem,1.2vw,5vw);
+}
+.homepage-about .card .details .role {
+  color: #a7abae;
+  font-size: clamp(1.4rem,1vw,5vw);
+}
+
+.bottom-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin: 5em 0 0 0;
+}
+.bottom-images .bb-image {
+  flex-basis: 25%;
+  line-height: 0;
+}
+.bottom-images .bb-image img {
+  width: 100%;
+}
+
+.homepage-footer {
+  margin: 0;
+  padding: 0;
+  background: #458c7e;
+}
+.homepage-footer .footer-title {
+  padding: 2em 0 0 0;
+  font-size: clamp(2em,1.2vw,1.2vw);
+  font-family: Fraunces;
+  color: #25564b;
+  text-align: center;
+}
+.homepage-footer .footer-body {
+  margin: 2em 0;
+}
+.homepage-footer .footer-body .more-options {
+  width: min(500px, 80%);
+  margin: 3em auto;
+}
+.homepage-footer .footer-body .more-options ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.homepage-footer .footer-body .more-options ul li a {
+  text-decoration: none;
+  color: #25564b;
+}
+.homepage-footer .footer-body .social-media {
+  width: min(300px, 80%);
+  margin: 0 auto;
+  padding: 0 0 4em 0;
+}
+.homepage-footer .footer-body .social-media ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.homepage-footer .footer-body .social-media ul li a {
+  text-decoration: none;
+  color: #25564b;
+}
+
+.nav-bar-active {
+  display: block !important;
+}
+
+@media (max-width: 700px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .homepage-header {
+    background-image: url("./assets/images/mobile/image-header.jpg");
+  }
+  .homepage-header .right-content {
+    position: absolute;
+    right: 2em;
+    top: 4em;
+    display: none;
+    background: white !important;
+  }
+  .homepage-header .right-content ul {
+    text-align: center;
+  }
+  .homepage-header .right-content ul li {
+    margin: 1em 0 0 0 !important;
+    display: block !important;
+  }
+  .homepage-header .right-content ul li a {
+    color: #818498 !important;
+  }
+  .homepage-header .right-content ul .page-active a {
+    background-color: #fad400 !important;
+  }
+  .homepage-header .nav-bar {
+    display: block !important;
+    font-size: 2rem;
+  }
+
+  .homepage-body {
+    margin: 0;
+    padding: 0;
+  }
+  .homepage-body .row-reverse {
+    flex-direction: column;
+  }
+  .homepage-body .card-image {
+    flex-basis: 100%;
+  }
+  .homepage-body .mobile-margin {
+    margin: 2em 0;
+  }
+  .homepage-body .card-content {
+    flex-basis: 100%;
+  }
+  .homepage-body .graphic-card .graphic-body {
+    flex-basis: 100%;
+  }
+
+  .homepage-about .client-review {
+    flex-direction: column;
+  }
+
+  .bottom-images .bb-image {
+    flex-basis: 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
