@@ -33,7 +33,7 @@ a {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-image: url("./assets/images/desktop/image-header.jpg");
+  background-image: url("./images/desktop/image-header.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -300,7 +300,7 @@ a {
   }
 
   .homepage-header {
-    background-image: url("./assets/images/mobile/image-header.jpg");
+    background-image: url("./images/mobile/image-header.jpg");
   }
   .homepage-header .right-content {
     position: absolute;
